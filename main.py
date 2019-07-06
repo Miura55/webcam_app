@@ -1,6 +1,5 @@
+# coding: utf-8
 from flask import Flask, render_template, Response
-# from camera import Camera
-# VideoCameraに変更
 from camera import VideoCamera
 
 app = Flask(__name__)
